@@ -1,7 +1,7 @@
 ---
 title: スポンサー募集
 share-description: Matz葉がにロボコンのスポンサー募集ページです。大会をサポートしてくださる企業・団体を募集しています。
-share-img: "/images/ogp@2x.png"
+share-img: "/images/ogp-cfs@2x.png"
 permalink: /cfs/
 full-width: true
 ---
@@ -16,7 +16,7 @@ full-width: true
 
 ## スポンサー特典
 
-* 公式サイト https://www.shimane-oss.org/kani-robo/ にロゴを掲載します。
+* [公式サイト](https://www.shimane-oss.org/kani-robo/) にロゴを掲載します。
 * 大会当日、来場者に配布するプログラムにロゴを掲載します。
 * 大会当日、会場内に社名を掲示します。
 * 入賞者を表彰するときに渡す副賞パネルに社名を掲載します。
