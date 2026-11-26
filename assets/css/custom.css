@@ -56,12 +56,25 @@ body,
   text-align: center;
 }
 
+/* 第3回アーカイブと同じく、700x350(2:1)のロゴを半分の350x175で並べる */
 .sponsor-item {
-  width: 180px;
+  width: 350px;
+  max-width: 100%;
+}
+
+/* ロゴの縦横比が違っても社名の位置がそろうよう、ロゴ枠を2:1に固定する */
+.sponsor-item > a:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 2 / 1;
+  margin-bottom: 1rem;
 }
 
 .sponsor-item img {
   max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: auto;
 }
 
