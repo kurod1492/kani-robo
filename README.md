@@ -24,18 +24,18 @@ tags: [タグ1, タグ2]                # 任意
 
 ### スポンサーを掲載する
 
-`_includes/sponsors.html` を編集します。現在は「スポンサー募集中」の表示のみですが、掲載が決まったら以下のような形でロゴとリンクを追加してください(1社あたり `.sponsor-item` を1つ追加するイメージです)。
+`_includes/sponsors.html` を編集します。以下のような形でロゴとリンクを追加してください(1社あたり `.sponsor-item` を1つ追加するイメージです)。
 
 ```html
 <div class="sponsor-grid">
   <div class="sponsor-item">
-    <a href="https://example.com/"><img src="{{ '/images/example-logo.png' | relative_url }}" alt="株式会社Example ロゴ"></a>
-    <div><a href="https://example.com/">株式会社Example</a></div>
+    <a href="https://example.com/" target="_blank" rel="noopener noreferrer"><img src="{{ '/images/example-logo.png' | relative_url }}" alt="株式会社Example ロゴ"></a>
+    <div><a href="https://example.com/" target="_blank" rel="noopener noreferrer">株式会社Example</a></div>
   </div>
   <!-- 2社目以降も同様に .sponsor-item を追加 -->
-</div>
-```
+</div>```
 
+- ロゴ画像は周りに余白を付けた 700×350px(2:1)の PNG にそろえてください(例: `images/nacl@2x.png`)。表示は半分の 350×175px になります。
 - ロゴ画像は `images/` に配置し、`src` は `{{ '/images/ファイル名' | relative_url }}` の形で指定してください(baseurlが自動的に付与されます)。
 - `.sponsor-grid` / `.sponsor-item` のスタイルは `assets/css/custom.css` で定義済みです。
 
